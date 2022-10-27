@@ -5,3 +5,4 @@ sphinx_rtd_theme==0.2.4
 tox==2.7.0
 
 -e .
+pygments>=2.7.4 # not directly required, pinned by Snyk to avoid a vulnerability

@@ -5,3 +5,5 @@ sphinx_rtd_theme==0.2.4
 tox==2.7.0
 
 -e .
+jinja2>=3.1.4 # not directly required, pinned by Snyk to avoid a vulnerability
+pygments>=2.15.0 # not directly required, pinned by Snyk to avoid a vulnerability
